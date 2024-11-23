@@ -5,24 +5,14 @@
 You need:
 
 1. A JavaScript runtime environment
-   - I used [Node.js](https://nodejs.org/), but you can use alternatives like:
-     - Deno
-     - Bun
-     - Or any JavaScript server environment you like
+   - I used [Node.js](https://nodejs.org/), but you can use any JavaScript server environment you like
 
 2. A MySQL database
-   - I used [XAMPP](https://www.apachefriends.org/) for its MySQL server
-   - But you can use any MySQL-compatible database server
-
-3. A code editor of your choice
-   - VS Code, Sublime Text, WebStorm, etc.
+   - I used [XAMPP](https://www.apachefriends.org/) for its MySQL server but you can use any MySQL-compatible database server
 
 ## Database Requirements
 
-Regardless of which MySQL solution you use, you need:
-
-1. A MySQL server running on localhost:3306 (default port)
-2. These tables in your database:
+These tables in your database:
 ```sql
 CREATE DATABASE mood_match;
 USE mood_match;
